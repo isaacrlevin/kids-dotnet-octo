@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://isaacrlevin.github.io/kids-dotnet-octo/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
