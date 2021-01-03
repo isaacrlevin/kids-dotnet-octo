@@ -4,6 +4,6 @@
     {{ $albumUrl := print "/static/images/" }}
     {{ range readDir $albumUrl }}
         {{ $imgURL := print "images/" .Name | absURL }}
-        <img height="300px" style="margin: 10px" src="{{ $imgURL }}"/>
+       <a href="{{ $imgURL}}" target="_blank"><img height="300px" style="margin: 10px" src="{{ $imgURL }}"/></a>
     {{ end }}
     </center>
